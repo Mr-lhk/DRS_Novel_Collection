@@ -1,5 +1,7 @@
 # 小说汇总计划
 
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 ## 介绍
 
 鉴于最近校内写同人文及小说风气的盛行，特开设此计划，旨在不让同学们辛苦创作的汗水付诸东流，也是为了更广泛地宣传精良的作品
@@ -10,7 +12,7 @@
 
 本计划尊重各位同学的隐私，但请各位遵守以下规定，避免纠纷:
 
-1. 所有加入到本计划的作品均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"> 协议授权。如需查看该许可协议的副本，请访问 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)，对作品的权利由创作者本人保留
+1. 所有加入到本计划的作品均采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权。如需查看该许可协议的副本，请访问 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)，对作品的权利由创作者本人保留
 
 2. 基于作者个人意愿。部分作者可能会选择以不署名的形式投稿作品，在这种情况下，管理员可以视为拥有作者授权解决相关纠纷
 
