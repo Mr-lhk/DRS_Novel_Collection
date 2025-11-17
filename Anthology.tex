@@ -1,0 +1,60 @@
+\documentclass[12pt,openright,twoside]{book}
+
+\usepackage{subfiles, fontspec, graphicx, hyperref, geometry, fancyhdr, setspace, titlesec, xcolor}
+
+\usepackage{ctex}
+
+% 页面尺寸设定
+\geometry{
+    a4paper,
+    inner=30mm,
+    outer=25mm,
+    top=25mm,
+    bottom=25mm,
+    headheight=15pt,
+    headsep=12pt,
+}
+
+% 行距
+\onehalfspacing
+
+%页眉页脚样式设置
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[LE,RO]{\leftmark}
+
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%章节标题美化
+\titleformat{\chapter}
+  {\normalfont\Huge\bfseries}
+  {\thechapter}
+  {1em}
+  {}
+
+% 让章节标题出现在页眉
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+\title{故事集}
+\author{小说汇总计划管理员团队}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\clearpage
+\input{Preface.tex}
+
+\frontmatter
+
+\tableofcontents
+
+\mainmatter
+
+\subfile{./collected/Untitled/main.tex}
+
+\end{document}
