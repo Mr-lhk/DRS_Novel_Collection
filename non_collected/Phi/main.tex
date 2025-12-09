@@ -1,0 +1,65 @@
+\documentclass[12pt,twoside]{book}
+
+\usepackage{xeCJK, ctex, hyperref, bookmark}
+
+% ==========================
+% 页面与段落设置
+% ==========================
+\usepackage[a4paper,margin=2.5cm,includeheadfoot]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+
+% 标题格式
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]
+  {\Large}
+  {第\chinese{chapter}章\quad}
+  {0pt}{}
+
+% 引语
+\usepackage{epigraph}
+\setlength{\epigraphwidth}{0.6\textwidth}
+\renewcommand{\textflush}{flushright}
+\renewcommand{\sourceflush}{flushright}
+
+% ==========================
+% 图片
+% ==========================
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,labelsep=space}
+
+% ==========================
+% 封面
+% ==========================
+\title{Phi}
+\author{\ensuremath{\Gamma}}
+\date{From 2025/10/6}
+
+% 人名宏
+\newcommand{\nPhi}{\ensuremath{\Phi}}
+\newcommand{\nphi}{\ensuremath{\phi}}
+\newcommand{\nvphi}{\ensuremath{\varphi}}
+\newcommand{\npsi}{\ensuremath{\psi}}
+
+
+\begin{document}
+
+\maketitle
+
+
+\clearpage
+\input{preface.tex}
+
+\cleardoublepage
+\input{chapters/chap1}
+\input{chapters/chap2}
+\input{chapters/chap3}
+
+% 彩蛋
+% \input{chapters/chap4}
+
+\end{document}
